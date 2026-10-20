@@ -1,0 +1,214 @@
+/* Historique des soins */
+
+.historique-soins {
+  margin-bottom: 40px;
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 0 25px;
+}
+
+.historique-soins h2 {
+  color: #557a61;
+  margin-bottom: 20px;
+}
+
+.carte-soin {
+  background-color: white;
+  border-left: 5px solid #2f6538;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.carte-soin h3 {
+  margin: 0 0 10px;
+  color: #2f6538;
+}
+
+.carte-soin p {
+  margin: 5px 0;
+}
+
+/* Boutons */
+.btn-modifier,
+.btn-supprimer {
+  border: none;
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+.btn-modifier {
+  background-color: #4caf78;
+  color: white;
+}
+
+.btn-modifier:hover {
+  background-color: #3d9463;
+}
+
+.btn-supprimer {
+  background-color: #e57373;
+  color: white;
+}
+
+.btn-supprimer:hover {
+  background-color: #d45c5c;
+}
+
+/* Ajouter / modifier un soin */
+.ajout-soin {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ajout-soin h2 {
+  color: #557a61;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.ajout-soin form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ajout-soin label {
+  font-weight: 600;
+  color: #444;
+}
+
+.ajout-soin select,
+.ajout-soin input[type='date'],
+.ajout-soin textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.ajout-soin textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.ajout-soin button[type='submit'] {
+  align-self: flex-start;
+  background-color: #4caf78;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 11px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.ajout-soin button[type='submit']:hover {
+  background-color: #3d9463;
+}
+
+/* Formulaire ajout d'un soin */
+
+.ajout-soin {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.ajout-soin h2 {
+  color: #2f6538;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.ajout-soin form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ajout-soin label {
+  font-weight: bold;
+}
+
+.ajout-soin select,
+.ajout-soin input,
+.ajout-soin textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.ajout-soin textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.ajout-soin button {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2f6538;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ajout-soin button:hover {
+  opacity: 0.9;
+}
+
+/* BOUTONS DES SOINS */
+
+.btn-modifier,
+.btn-supprimer {
+  border: none;
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 8px;
+  transition: 0.2s;
+}
+
+/* Bouton Modifier */
+.btn-modifier {
+  background-color: #4caf78;
+  color: white;
+}
+
+.btn-modifier:hover {
+  background-color: #3d9463;
+}
+
+/* Bouton Supprimer */
+.btn-supprimer {
+  background-color: #e57373;
+  color: white;
+}
+
+.btn-supprimer:hover {
+  background-color: #d45c5c;
+}

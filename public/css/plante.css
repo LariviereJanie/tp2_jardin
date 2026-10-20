@@ -1,0 +1,139 @@
+/* CARTES DES PLANTES */
+
+.carte-plante {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carte-plante:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.carte-plante h3 {
+  color: #315c3b;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.carte-plante p {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.carte-plante .bouton {
+  margin-top: 10px;
+}
+
+/* PAGE DÉTAIL D'UNE PLANTE */
+
+.contenu {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+.contenu .bouton {
+  display: inline-block;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #254d3b;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contenu .bouton:hover {
+  background: #193729;
+}
+
+.contenu .bouton-supprime {
+  background: #a33232;
+}
+
+.contenu .bouton-supprime:hover {
+  background: #802424;
+}
+
+.contenu form {
+  margin: 16px 0;
+}
+
+.retour {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #2f6538;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.retour:hover {
+  text-decoration: underline;
+}
+
+/* Informations de la plante */
+
+.detail-plante {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.detail-plante h2 {
+  margin-top: 0;
+  color: #2f6538;
+  font-size: 30px;
+}
+
+.detail-plante p {
+  margin: 8px 0;
+}
+
+.grille-plantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.formulaire-plante {
+  max-width: 600px;
+  margin: 25px 0;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.formulaire-plante > div {
+  margin-bottom: 20px;
+}
+
+.formulaire-plante label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.formulaire-plante input,
+.formulaire-plante select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.formulaire-plante input:focus,
+.formulaire-plante select:focus {
+  outline: 2px solid #254d3b;
+  outline-offset: 2px;
+}

@@ -1,0 +1,35 @@
+/* petit écran */
+
+@media (max-width: 600px) {
+  .contenu {
+    padding: 25px 15px;
+  }
+
+  .detail-plante,
+  .ajout-soin {
+    padding: 18px;
+  }
+
+  .detail-plante h2 {
+    font-size: 25px;
+  }
+
+  .ajout-soin button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
